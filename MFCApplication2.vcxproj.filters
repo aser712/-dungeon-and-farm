@@ -1,0 +1,917 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일\MAP">
+      <UniqueIdentifier>{3f437c0c-7188-4cec-abf8-2e5eb3fc34bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\BUILDING">
+      <UniqueIdentifier>{c665bbd2-66f3-4f5f-abe4-8e20a052a698}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\OBJECT">
+      <UniqueIdentifier>{ddbe821d-9d88-469d-b7a6-bc9059708543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\OBJECT\SEED">
+      <UniqueIdentifier>{112b318f-4a8a-4170-9511-c12f7e1a4927}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\OBJECT\CROP">
+      <UniqueIdentifier>{3d42782b-8d55-4e52-a778-da2eb2544ade}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\OBJECT\PLANT">
+      <UniqueIdentifier>{a2658311-6cbe-4213-a627-c21b28ea6ab8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\MONSTER">
+      <UniqueIdentifier>{0d45ad73-9dfb-4af9-97e5-28667d87fa06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\WEAPON">
+      <UniqueIdentifier>{c3114eab-b97d-46b6-a985-dbd86bb84ea8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\ATTACKMOTION">
+      <UniqueIdentifier>{428432c0-8ae3-40ed-912a-bbe7bb57f353}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MFCApplication2.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildView.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Farm.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Crop.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Village.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Dungeon.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="EventManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackMotion.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MFCApplication2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildView.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Farm.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Crop.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Village.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Dungeon.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="EventManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackMotion.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MFCApplication2.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\MFCApplication2.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\font1.bin">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\BMJUA_ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\MFCApplication2.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Character.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\UI.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\HP_Potion.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\MP_Potion.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\crop\Cabbage.bmp">
+      <Filter>리소스 파일\OBJECT\CROP</Filter>
+    </Image>
+    <Image Include="res\crop\Carrot.bmp">
+      <Filter>리소스 파일\OBJECT\CROP</Filter>
+    </Image>
+    <Image Include="res\crop\Corn.bmp">
+      <Filter>리소스 파일\OBJECT\CROP</Filter>
+    </Image>
+    <Image Include="res\crop\Golden_Carrot.bmp">
+      <Filter>리소스 파일\OBJECT\CROP</Filter>
+    </Image>
+    <Image Include="res\crop\Green_Onion.bmp">
+      <Filter>리소스 파일\OBJECT\CROP</Filter>
+    </Image>
+    <Image Include="res\crop\Melon.bmp">
+      <Filter>리소스 파일\OBJECT\CROP</Filter>
+    </Image>
+    <Image Include="res\crop\potato.bmp">
+      <Filter>리소스 파일\OBJECT\CROP</Filter>
+    </Image>
+    <Image Include="res\map\Farm.bmp">
+      <Filter>리소스 파일\MAP</Filter>
+    </Image>
+    <Image Include="res\map\HallMap.bmp">
+      <Filter>리소스 파일\MAP</Filter>
+    </Image>
+    <Image Include="res\map\HouseMap.bmp">
+      <Filter>리소스 파일\MAP</Filter>
+    </Image>
+    <Image Include="res\building\House.bmp">
+      <Filter>리소스 파일\BUILDING</Filter>
+    </Image>
+    <Image Include="res\crop\Radish.bmp">
+      <Filter>리소스 파일\OBJECT\CROP</Filter>
+    </Image>
+    <Image Include="res\building\shop.bmp">
+      <Filter>리소스 파일\BUILDING</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\shop.png">
+      <Filter>리소스 파일\BUILDING</Filter>
+    </Image>
+    <Image Include="res\map\ShopInner.bmp">
+      <Filter>리소스 파일\MAP</Filter>
+    </Image>
+    <Image Include="res\building\Smithy.bmp">
+      <Filter>리소스 파일\BUILDING</Filter>
+    </Image>
+    <Image Include="res\map\Soil.bmp">
+      <Filter>리소스 파일\MAP</Filter>
+    </Image>
+    <Image Include="res\crop\Sprouted_Sweet_Potatoes.bmp">
+      <Filter>리소스 파일\OBJECT\CROP</Filter>
+    </Image>
+    <Image Include="res\crop\Strawberry.bmp">
+      <Filter>리소스 파일\OBJECT\CROP</Filter>
+    </Image>
+    <Image Include="res\crop\Sweet_Potato.bmp">
+      <Filter>리소스 파일\OBJECT\CROP</Filter>
+    </Image>
+    <Image Include="res\map\village.bmp">
+      <Filter>리소스 파일\MAP</Filter>
+    </Image>
+    <Image Include="res\building\villageHall.bmp">
+      <Filter>리소스 파일\BUILDING</Filter>
+    </Image>
+    <Image Include="res\map\Wall.bmp">
+      <Filter>리소스 파일\MAP</Filter>
+    </Image>
+    <Image Include="res\crop\Water_Melon.bmp">
+      <Filter>리소스 파일\OBJECT\CROP</Filter>
+    </Image>
+    <Image Include="res\crop\Wheat.bmp">
+      <Filter>리소스 파일\OBJECT\CROP</Filter>
+    </Image>
+    <Image Include="res\map\wettedSoil.bmp">
+      <Filter>리소스 파일\MAP</Filter>
+    </Image>
+    <Image Include="res\crop\White_Melon.bmp">
+      <Filter>리소스 파일\OBJECT\CROP</Filter>
+    </Image>
+    <Image Include="res\seed\RadishSeed.bmp">
+      <Filter>리소스 파일\OBJECT\SEED</Filter>
+    </Image>
+    <Image Include="res\seed\RraspberrySeed.bmp">
+      <Filter>리소스 파일\OBJECT\SEED</Filter>
+    </Image>
+    <Image Include="res\seed\SeedlessWatermelon.bmp">
+      <Filter>리소스 파일\OBJECT\SEED</Filter>
+    </Image>
+    <Image Include="res\seed\StrawBerrySeed.bmp">
+      <Filter>리소스 파일\OBJECT\SEED</Filter>
+    </Image>
+    <Image Include="res\seed\WatermelonSeed.bmp">
+      <Filter>리소스 파일\OBJECT\SEED</Filter>
+    </Image>
+    <Image Include="res\seed\SpinachSeed.bmp">
+      <Filter>리소스 파일\OBJECT\SEED</Filter>
+    </Image>
+    <Image Include="res\seed\SproutedSweetPotatoesSeed.bmp">
+      <Filter>리소스 파일\OBJECT\SEED</Filter>
+    </Image>
+    <Image Include="res\seed\SativusSeed.bmp">
+      <Filter>리소스 파일\OBJECT\SEED</Filter>
+    </Image>
+    <Image Include="res\seed\SproutedPotatoesSeed.bmp">
+      <Filter>리소스 파일\OBJECT\SEED</Filter>
+    </Image>
+    <Image Include="res\seed\CabbageSeed.bmp">
+      <Filter>리소스 파일\OBJECT\SEED</Filter>
+    </Image>
+    <Image Include="res\seed\CornSeed.bmp">
+      <Filter>리소스 파일\OBJECT\SEED</Filter>
+    </Image>
+    <Image Include="res\seed\GreenOnionSeed.bmp">
+      <Filter>리소스 파일\OBJECT\SEED</Filter>
+    </Image>
+    <Image Include="res\seed\GoldenCarrotSeed.bmp">
+      <Filter>리소스 파일\OBJECT\SEED</Filter>
+    </Image>
+    <Image Include="res\seed\PotatoSeed.bmp">
+      <Filter>리소스 파일\OBJECT\SEED</Filter>
+    </Image>
+    <Image Include="res\seed\CarrotSeed.bmp">
+      <Filter>리소스 파일\OBJECT\SEED</Filter>
+    </Image>
+    <Image Include="res\seed\SweetPotatoSeed.bmp">
+      <Filter>리소스 파일\OBJECT\SEED</Filter>
+    </Image>
+    <Image Include="res\seed\WheatSeed.bmp">
+      <Filter>리소스 파일\OBJECT\SEED</Filter>
+    </Image>
+    <Image Include="res\seed\WhiteMelonSeed.bmp">
+      <Filter>리소스 파일\OBJECT\SEED</Filter>
+    </Image>
+    <Image Include="res\seed\MelonSeed.bmp">
+      <Filter>리소스 파일\OBJECT\SEED</Filter>
+    </Image>
+    <Image Include="res\crop\Raspberry.bmp">
+      <Filter>리소스 파일\OBJECT\CROP</Filter>
+    </Image>
+    <Image Include="res\seed\RaspberrySeed.bmp">
+      <Filter>리소스 파일\OBJECT\SEED</Filter>
+    </Image>
+    <Image Include="res\crop\Sativus.bmp">
+      <Filter>리소스 파일\OBJECT\CROP</Filter>
+    </Image>
+    <Image Include="res\crop\Seedless_Watermelon.bmp">
+      <Filter>리소스 파일\OBJECT\CROP</Filter>
+    </Image>
+    <Image Include="res\seed\SeedlessWatermelonSeed.bmp">
+      <Filter>리소스 파일\OBJECT\SEED</Filter>
+    </Image>
+    <Image Include="res\crop\Spinach.bmp">
+      <Filter>리소스 파일\OBJECT\CROP</Filter>
+    </Image>
+    <Image Include="res\crop\Sprouted_Potatoes.bmp">
+      <Filter>리소스 파일\OBJECT\CROP</Filter>
+    </Image>
+    <Image Include="res\seed\SproutedPotatoSeed.bmp">
+      <Filter>리소스 파일\OBJECT\SEED</Filter>
+    </Image>
+    <Image Include="res\plant\Level1NonWatered.bmp">
+      <Filter>리소스 파일\OBJECT\PLANT</Filter>
+    </Image>
+    <Image Include="res\plant\Level1Watered.bmp">
+      <Filter>리소스 파일\OBJECT\PLANT</Filter>
+    </Image>
+    <Image Include="res\plant\Level2Watered.bmp">
+      <Filter>리소스 파일\OBJECT\PLANT</Filter>
+    </Image>
+    <Image Include="res\plant\Level2NonWatered.bmp">
+      <Filter>리소스 파일\OBJECT\PLANT</Filter>
+    </Image>
+    <Image Include="res\plant\Level3Cabbage.bmp">
+      <Filter>리소스 파일\OBJECT\PLANT</Filter>
+    </Image>
+    <Image Include="res\plant\Level3Carrot.bmp">
+      <Filter>리소스 파일\OBJECT\PLANT</Filter>
+    </Image>
+    <Image Include="res\plant\Level3Corn.bmp">
+      <Filter>리소스 파일\OBJECT\PLANT</Filter>
+    </Image>
+    <Image Include="res\plant\Level3GoldenCarrot.bmp">
+      <Filter>리소스 파일\OBJECT\PLANT</Filter>
+    </Image>
+    <Image Include="res\plant\Level3GreenOnion.bmp">
+      <Filter>리소스 파일\OBJECT\PLANT</Filter>
+    </Image>
+    <Image Include="res\plant\Level3Melon.bmp">
+      <Filter>리소스 파일\OBJECT\PLANT</Filter>
+    </Image>
+    <Image Include="res\plant\Level3Potato.bmp">
+      <Filter>리소스 파일\OBJECT\PLANT</Filter>
+    </Image>
+    <Image Include="res\plant\Level3Radish.bmp">
+      <Filter>리소스 파일\OBJECT\PLANT</Filter>
+    </Image>
+    <Image Include="res\plant\Level3Raspberry.bmp">
+      <Filter>리소스 파일\OBJECT\PLANT</Filter>
+    </Image>
+    <Image Include="res\plant\Level3Sativus.bmp">
+      <Filter>리소스 파일\OBJECT\PLANT</Filter>
+    </Image>
+    <Image Include="res\plant\Level3Spinach.bmp">
+      <Filter>리소스 파일\OBJECT\PLANT</Filter>
+    </Image>
+    <Image Include="res\plant\Level3Strawberry.bmp">
+      <Filter>리소스 파일\OBJECT\PLANT</Filter>
+    </Image>
+    <Image Include="res\plant\Level3WateredCarrot.bmp">
+      <Filter>리소스 파일\OBJECT\PLANT</Filter>
+    </Image>
+    <Image Include="res\plant\Level3WateredCorn.bmp">
+      <Filter>리소스 파일\OBJECT\PLANT</Filter>
+    </Image>
+    <Image Include="res\plant\Level3SweetPotato.bmp">
+      <Filter>리소스 파일\OBJECT\PLANT</Filter>
+    </Image>
+    <Image Include="res\plant\Level3WateredGoldenCarrot.bmp">
+      <Filter>리소스 파일\OBJECT\PLANT</Filter>
+    </Image>
+    <Image Include="res\plant\Level3WateredCabbage.bmp">
+      <Filter>리소스 파일\OBJECT\PLANT</Filter>
+    </Image>
+    <Image Include="res\plant\Level3WateredRaspberry.bmp">
+      <Filter>리소스 파일\OBJECT\PLANT</Filter>
+    </Image>
+    <Image Include="res\plant\Level3WateredSativus.bmp">
+      <Filter>리소스 파일\OBJECT\PLANT</Filter>
+    </Image>
+    <Image Include="res\plant\Level3WateredRadish.bmp">
+      <Filter>리소스 파일\OBJECT\PLANT</Filter>
+    </Image>
+    <Image Include="res\plant\Level3WateredSpinach.bmp">
+      <Filter>리소스 파일\OBJECT\PLANT</Filter>
+    </Image>
+    <Image Include="res\plant\Level3WateredPotato.bmp">
+      <Filter>리소스 파일\OBJECT\PLANT</Filter>
+    </Image>
+    <Image Include="res\plant\Level3WateredMelon.bmp">
+      <Filter>리소스 파일\OBJECT\PLANT</Filter>
+    </Image>
+    <Image Include="res\plant\Level3WateredSweetPotato.bmp">
+      <Filter>리소스 파일\OBJECT\PLANT</Filter>
+    </Image>
+    <Image Include="res\plant\Level3WateredWatermelon.bmp">
+      <Filter>리소스 파일\OBJECT\PLANT</Filter>
+    </Image>
+    <Image Include="res\plant\Level3WateredWhiteMelon.bmp">
+      <Filter>리소스 파일\OBJECT\PLANT</Filter>
+    </Image>
+    <Image Include="res\plant\Level3Watermelon.bmp">
+      <Filter>리소스 파일\OBJECT\PLANT</Filter>
+    </Image>
+    <Image Include="res\plant\Level3WateredWheat.bmp">
+      <Filter>리소스 파일\OBJECT\PLANT</Filter>
+    </Image>
+    <Image Include="res\plant\Level3WateredStrawberry.bmp">
+      <Filter>리소스 파일\OBJECT\PLANT</Filter>
+    </Image>
+    <Image Include="res\plant\Level3WhiteMelon.bmp">
+      <Filter>리소스 파일\OBJECT\PLANT</Filter>
+    </Image>
+    <Image Include="res\plant\Level3Wheat.bmp">
+      <Filter>리소스 파일\OBJECT\PLANT</Filter>
+    </Image>
+    <Image Include="res\WaterCan.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\board.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\monster\SW_던전맵_미라4 수정됨.bmp">
+      <Filter>리소스 파일\MONSTER</Filter>
+    </Image>
+    <Image Include="res\monster\SW_던전몹_골렘 수정됨.bmp">
+      <Filter>리소스 파일\MONSTER</Filter>
+    </Image>
+    <Image Include="res\monster\SW_던전몹_늑대 수정도미.bmp">
+      <Filter>리소스 파일\MONSTER</Filter>
+    </Image>
+    <Image Include="res\monster\SW_던전몹_돌덩이 수정됨.bmp">
+      <Filter>리소스 파일\MONSTER</Filter>
+    </Image>
+    <Image Include="res\monster\SW_던전몹_돌멩이 수정됨.bmp">
+      <Filter>리소스 파일\MONSTER</Filter>
+    </Image>
+    <Image Include="res\monster\SW_던전몹_마법사 수정됨.bmp">
+      <Filter>리소스 파일\MONSTER</Filter>
+    </Image>
+    <Image Include="res\monster\SW_던전몹_모아이 수정됨.bmp">
+      <Filter>리소스 파일\MONSTER</Filter>
+    </Image>
+    <Image Include="res\monster\SW_던전몹_미니 미믹 수정됨.bmp">
+      <Filter>리소스 파일\MONSTER</Filter>
+    </Image>
+    <Image Include="res\monster\SW_던전몹_미라1 수정됨.bmp">
+      <Filter>리소스 파일\MONSTER</Filter>
+    </Image>
+    <Image Include="res\monster\SW_던전몹_미라2 수정됨.bmp">
+      <Filter>리소스 파일\MONSTER</Filter>
+    </Image>
+    <Image Include="res\monster\SW_던전몹_미라3 수정됨.bmp">
+      <Filter>리소스 파일\MONSTER</Filter>
+    </Image>
+    <Image Include="res\monster\SW_던전몹_미믹 수정됨.bmp">
+      <Filter>리소스 파일\MONSTER</Filter>
+    </Image>
+    <Image Include="res\monster\SW_던전몹_벌꿀 오소리 수정됨.bmp">
+      <Filter>리소스 파일\MONSTER</Filter>
+    </Image>
+    <Image Include="res\monster\SW_던전몹_슬라임B 흰색 수정됨.bmp">
+      <Filter>리소스 파일\MONSTER</Filter>
+    </Image>
+    <Image Include="res\monster\SW_던전몹_슬라임G 흰색 수정됨.bmp">
+      <Filter>리소스 파일\MONSTER</Filter>
+    </Image>
+    <Image Include="res\monster\SW_던전몹_슬라임R 흰색 수정됨.bmp">
+      <Filter>리소스 파일\MONSTER</Filter>
+    </Image>
+    <Image Include="res\monster\SW_던전몹_슬라임Y 흰색 수정됨.bmp">
+      <Filter>리소스 파일\MONSTER</Filter>
+    </Image>
+    <Image Include="res\monster\SW_던전몹_아누비스 수정됨.bmp">
+      <Filter>리소스 파일\MONSTER</Filter>
+    </Image>
+    <Image Include="res\monster\SW_던전몹_유령 수정됨.bmp">
+      <Filter>리소스 파일\MONSTER</Filter>
+    </Image>
+    <Image Include="res\monster\SW_던전몹_전갈 수정됨.bmp">
+      <Filter>리소스 파일\MONSTER</Filter>
+    </Image>
+    <Image Include="res\monster\SW_던전몹_코모도 도마뱀 2차 수정.bmp">
+      <Filter>리소스 파일\MONSTER</Filter>
+    </Image>
+    <Image Include="res\monster\SW_던전몹_코브라 수정됨.bmp">
+      <Filter>리소스 파일\MONSTER</Filter>
+    </Image>
+    <Image Include="res\monster\SW_던전몹_큰슬라임.bmp">
+      <Filter>리소스 파일\MONSTER</Filter>
+    </Image>
+    <Image Include="res\monster\SW_던전몹_형킴 수정됨.bmp">
+      <Filter>리소스 파일\MONSTER</Filter>
+    </Image>
+    <Image Include="res\monster\SW_던전몹_흙골렘 수정됨.bmp">
+      <Filter>리소스 파일\MONSTER</Filter>
+    </Image>
+    <Image Include="res\weapon\1731422080627.bmp">
+      <Filter>리소스 파일\WEAPON</Filter>
+    </Image>
+    <Image Include="res\weapon\1731422477846.bmp">
+      <Filter>리소스 파일\WEAPON</Filter>
+    </Image>
+    <Image Include="res\weapon\1731422824236.bmp">
+      <Filter>리소스 파일\WEAPON</Filter>
+    </Image>
+    <Image Include="res\weapon\1731743273807.bmp">
+      <Filter>리소스 파일\WEAPON</Filter>
+    </Image>
+    <Image Include="res\weapon\1731840002621.bmp">
+      <Filter>리소스 파일\WEAPON</Filter>
+    </Image>
+    <Image Include="res\weapon\1731844459370.bmp">
+      <Filter>리소스 파일\WEAPON</Filter>
+    </Image>
+    <Image Include="res\weapon\1732015878655.bmp">
+      <Filter>리소스 파일\WEAPON</Filter>
+    </Image>
+    <Image Include="res\weapon\1731844237059.bmp">
+      <Filter>리소스 파일\WEAPON</Filter>
+    </Image>
+    <Image Include="res\weapon\1732016256295.bmp">
+      <Filter>리소스 파일\WEAPON</Filter>
+    </Image>
+    <Image Include="res\weapon\1732016364249.bmp">
+      <Filter>리소스 파일\WEAPON</Filter>
+    </Image>
+    <Image Include="res\Revival.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\prologue\Prologue1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\prologue\Prologue2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\prologue\Prologue3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\prologue\Prologue4.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\prologue\Prologue5.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\prologue\Prologue6.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\prologue\Prologue7.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\prologue\Prologue8.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\prologue\Prologue9.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\prologue\Prologue10.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\prologue\Prologue11.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\prologue\Prologue12.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\prologue\Prologue13.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\prologue\Prologue14.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\prologue\Prologue15.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\plant\bitmap1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\prologue\startScreen.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\map\1732120268247.bmp">
+      <Filter>리소스 파일\MAP</Filter>
+    </Image>
+    <Image Include="res\모아이 드랍템.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\슬라임 보스 드랍템.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\아누비스 드랍템.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\코모도왕도마뱀 드랍템.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\형킴 드랍템.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\frame.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\frame_burn.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\frame_paralyze.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\frame_poison.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\frame2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\walkCharacter1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\walkCharacter2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\panaacea.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\building\Fountain.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\be189fb4d5d68cfb.bmp">
+      <Filter>리소스 파일\OBJECT</Filter>
+    </Image>
+    <Image Include="res\attack_motion\1a2.bmp">
+      <Filter>리소스 파일\ATTACKMOTION</Filter>
+    </Image>
+    <Image Include="res\attack_motion\1a1.bmp">
+      <Filter>리소스 파일\ATTACKMOTION</Filter>
+    </Image>
+    <Image Include="res\attack_motion\1a4.bmp">
+      <Filter>리소스 파일\ATTACKMOTION</Filter>
+    </Image>
+    <Image Include="res\attack_motion\1a5.bmp">
+      <Filter>리소스 파일\ATTACKMOTION</Filter>
+    </Image>
+    <Image Include="res\attack_motion\2a1.bmp">
+      <Filter>리소스 파일\ATTACKMOTION</Filter>
+    </Image>
+    <Image Include="res\attack_motion\1a7.bmp">
+      <Filter>리소스 파일\ATTACKMOTION</Filter>
+    </Image>
+    <Image Include="res\attack_motion\2a2.bmp">
+      <Filter>리소스 파일\ATTACKMOTION</Filter>
+    </Image>
+    <Image Include="res\attack_motion\2a3.bmp">
+      <Filter>리소스 파일\ATTACKMOTION</Filter>
+    </Image>
+    <Image Include="res\attack_motion\1a6.bmp">
+      <Filter>리소스 파일\ATTACKMOTION</Filter>
+    </Image>
+    <Image Include="res\attack_motion\2a4.bmp">
+      <Filter>리소스 파일\ATTACKMOTION</Filter>
+    </Image>
+    <Image Include="res\attack_motion\2a6.bmp">
+      <Filter>리소스 파일\ATTACKMOTION</Filter>
+    </Image>
+    <Image Include="res\attack_motion\2a7.bmp">
+      <Filter>리소스 파일\ATTACKMOTION</Filter>
+    </Image>
+    <Image Include="res\attack_motion\2a5.bmp">
+      <Filter>리소스 파일\ATTACKMOTION</Filter>
+    </Image>
+    <Image Include="res\attack_motion\3a1.bmp">
+      <Filter>리소스 파일\ATTACKMOTION</Filter>
+    </Image>
+    <Image Include="res\attack_motion\1a3.bmp">
+      <Filter>리소스 파일\ATTACKMOTION</Filter>
+    </Image>
+    <Image Include="res\attack_motion\3a3.bmp">
+      <Filter>리소스 파일\ATTACKMOTION</Filter>
+    </Image>
+    <Image Include="res\attack_motion\3a2.bmp">
+      <Filter>리소스 파일\ATTACKMOTION</Filter>
+    </Image>
+    <Image Include="res\attack_motion\3a4.bmp">
+      <Filter>리소스 파일\ATTACKMOTION</Filter>
+    </Image>
+    <Image Include="res\attack_motion\3a5.bmp">
+      <Filter>리소스 파일\ATTACKMOTION</Filter>
+    </Image>
+    <Image Include="res\attack_motion\3a7.bmp">
+      <Filter>리소스 파일\ATTACKMOTION</Filter>
+    </Image>
+    <Image Include="res\attack_motion\3a6.bmp">
+      <Filter>리소스 파일\ATTACKMOTION</Filter>
+    </Image>
+    <Image Include="res\attack_motion\4a2.bmp">
+      <Filter>리소스 파일\ATTACKMOTION</Filter>
+    </Image>
+    <Image Include="res\attack_motion\4a1.bmp">
+      <Filter>리소스 파일\ATTACKMOTION</Filter>
+    </Image>
+    <Image Include="res\attack_motion\4a4.bmp">
+      <Filter>리소스 파일\ATTACKMOTION</Filter>
+    </Image>
+    <Image Include="res\attack_motion\4a3.bmp">
+      <Filter>리소스 파일\ATTACKMOTION</Filter>
+    </Image>
+    <Image Include="res\attack_motion\4a6.bmp">
+      <Filter>리소스 파일\ATTACKMOTION</Filter>
+    </Image>
+    <Image Include="res\attack_motion\4a5.bmp">
+      <Filter>리소스 파일\ATTACKMOTION</Filter>
+    </Image>
+    <Image Include="res\attack_motion\4a8.bmp">
+      <Filter>리소스 파일\ATTACKMOTION</Filter>
+    </Image>
+    <Image Include="res\attack_motion\5a1.bmp">
+      <Filter>리소스 파일\ATTACKMOTION</Filter>
+    </Image>
+    <Image Include="res\attack_motion\4a7.bmp">
+      <Filter>리소스 파일\ATTACKMOTION</Filter>
+    </Image>
+    <Image Include="res\attack_motion\5a2.bmp">
+      <Filter>리소스 파일\ATTACKMOTION</Filter>
+    </Image>
+    <Image Include="res\attack_motion\4a9.bmp">
+      <Filter>리소스 파일\ATTACKMOTION</Filter>
+    </Image>
+    <Image Include="res\attack_motion\5a5.bmp">
+      <Filter>리소스 파일\ATTACKMOTION</Filter>
+    </Image>
+    <Image Include="res\attack_motion\5a4.bmp">
+      <Filter>리소스 파일\ATTACKMOTION</Filter>
+    </Image>
+    <Image Include="res\attack_motion\5a6.bmp">
+      <Filter>리소스 파일\ATTACKMOTION</Filter>
+    </Image>
+    <Image Include="res\attack_motion\5a3.bmp">
+      <Filter>리소스 파일\ATTACKMOTION</Filter>
+    </Image>
+    <Image Include="res\attack_motion\5a8.bmp">
+      <Filter>리소스 파일\ATTACKMOTION</Filter>
+    </Image>
+    <Image Include="res\attack_motion\5a7.bmp">
+      <Filter>리소스 파일\ATTACKMOTION</Filter>
+    </Image>
+    <Image Include="res\attack_motion\5a9.bmp">
+      <Filter>리소스 파일\ATTACKMOTION</Filter>
+    </Image>
+    <Image Include="res\attack_motion\5a11.bmp">
+      <Filter>리소스 파일\ATTACKMOTION</Filter>
+    </Image>
+    <Image Include="res\attack_motion\5a10.bmp">
+      <Filter>리소스 파일\ATTACKMOTION</Filter>
+    </Image>
+    <Image Include="res\attack_motion\5a14.bmp">
+      <Filter>리소스 파일\ATTACKMOTION</Filter>
+    </Image>
+    <Image Include="res\attack_motion\5a13.bmp">
+      <Filter>리소스 파일\ATTACKMOTION</Filter>
+    </Image>
+    <Image Include="res\attack_motion\5a15.bmp">
+      <Filter>리소스 파일\ATTACKMOTION</Filter>
+    </Image>
+    <Image Include="res\attack_motion\5a12.bmp">
+      <Filter>리소스 파일\ATTACKMOTION</Filter>
+    </Image>
+    <Image Include="res\attack_motion\5a16.bmp">
+      <Filter>리소스 파일\ATTACKMOTION</Filter>
+    </Image>
+    <Image Include="res\map\cave.bmp">
+      <Filter>리소스 파일\MAP</Filter>
+    </Image>
+    <Image Include="res\map\dungeonMap.bmp">
+      <Filter>리소스 파일\MAP</Filter>
+    </Image>
+    <Image Include="res\deathmonster\d1_1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\deathmonster\d1_2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\deathmonster\d1_3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\deathmonster\d1_4.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\deathmonster\d1_5.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\deathmonster\d2_1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\deathmonster\d2_2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\deathmonster\d2_3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\deathmonster\d2_4.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\deathmonster\d2_5.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\deathmonster\d3_1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\deathmonster\d3_2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\deathmonster\d3_3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\deathmonster\d3_4.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\deathmonster\d3_5.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\deathmonster\d4_1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\deathmonster\d4_2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\deathmonster\d4_3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\deathmonster\d4_4.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\deathmonster\d4_5.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\deathmonster\d5_1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\deathmonster\d5_2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\deathmonster\d5_3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\deathmonster\d5_4.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\deathmonster\d5_5.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\prologue\startScreen2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\업적\unlock1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\업적\unlock2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\업적\unlock3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\업적\unlock4.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\업적\unlock5.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\업적\unlock6.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\엔딩\엔딩크래딧1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\엔딩\엔딩크래딧2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\엔딩\엔딩크래딧3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\엔딩\엔딩크래딧4.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="BMJUA_ttf.ttf" />
+    <Font Include="res\BMJUA_ttf.ttf" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,19 @@
+# Visual Studio files
+.vs/
+*.exe
+*.pdb
+*.res
+*.pch
+
+# Build results
+x64/
+x86/
+Debug/
+Release/
+*.aps
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
